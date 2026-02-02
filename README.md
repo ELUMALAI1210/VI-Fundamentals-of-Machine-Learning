@@ -13,6 +13,10 @@ and ease of academic evaluation.
 ## Repository Structure
 
 Fundamentals of Machine Learning/<br>
+├── ASSIGNMENTS AND OTHER THINGS/<br>
+│ ├── 138_FOML_Activity 1_Kamalesh.pdf<br>
+│ ├── Activity 1.py<br>
+│ └── question_generator.py<br>
 ├── LAB0/<br>
 │ ├── demo.ipynb<br>
 │ ├── FOML lab 1a.pdf<br>
@@ -43,9 +47,6 @@ Fundamentals of Machine Learning/<br>
 ├── LABn/<br>
 │ └── (future experiments)<br>
 │<br>
-├── 138_FOML_Activity 1_Kamalesh.pdf<br>
-├── Activity 1.py<br>
-├── question_generator.py<br>
 └── README.md<br>
 
 ---
@@ -65,6 +66,7 @@ Fundamentals of Machine Learning/<br>
 
 | Lab No | Title                              | Description                                                                 |
 |------|------------------------------------|-----------------------------------------------------------------------------|
+| ASSIGNMENTS AND OTHER THINGS | Assignments of FOML          | Assignments and other things related to FOML       |
 | Lab 0 | Dataset Exploration (EDA)          | Basic exploratory data analysis and visualization using Iris dataset        |
 | Lab 1 | Regression Analysis                | Univariate, Bivariate & Multivariate Regression using Iris dataset          |
 | Lab 2 | Data Cleaning & EDA                | Data preprocessing, outlier handling, correlation analysis on Diabetes data |
