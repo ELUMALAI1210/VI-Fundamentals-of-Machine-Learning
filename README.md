@@ -1,10 +1,9 @@
 # Fundamentals of Machine Learning – Lab Repository
 
 ## Overview
-This repository contains laboratory experiments conducted as part of the
-**Fundamentals of Machine Learning** course. Each lab focuses on implementing
-core machine learning concepts using Python, supported by structured notebooks,
-datasets, visual outputs, and detailed documentation.
+This repository contains laboratory experiments conducted as part of the **Fundamentals of Machine Learning** course. Each lab focuses on implementing core machine learning concepts using Python, supported by structured notebooks, datasets, visual outputs, and detailed documentation.
+
+**Lab 0 is included as a demo practical for understanding basic workflow and tools, while the actual laboratory experiments officially begin from Lab 1 onwards.**
 
 All experiments are organized into separate folders for clarity, modularity,
 and ease of academic evaluation.
@@ -13,24 +12,28 @@ and ease of academic evaluation.
 
 ## Repository Structure
 
-├── LAB1/<br>
-│ ├── iris.csv<br>
-│ ├── lab 1a.ipynb<br>
-│ ├── lab 1b.ipynb<br>
+Fundamentals of Machine Learning/<br>
+├── LAB0/<br>
+│ ├── demo.ipynb<br>
 │ ├── FOML lab 1a.pdf<br>
-│ ├── FOML lab 1b.pdf<br>
-│ ├── univariate_regression.png<br>
-│ ├── bivariate_regression.png<br>
-│ ├── multivariate_regression.png<br>
+│ ├── iris.csv<br>
+│ ├── pairplot_iris.png<br>
 │ ├── sepal_length_distribution.png<br>
 │ ├── sepal_width_distribution.png<br>
 │ ├── sepal_width_vs_petal_width.png<br>
-│ ├── pairplot_iris.png<br>
+│ └── README.md<br>
+│<br>
+├── LAB1/<br>
+│ ├── lab 1a.ipynb<br>
+│ ├── lab 1a - types of variate regression.pdf<br>
+│ ├── univariate_regression.png<br>
+│ ├── bivariate_regression.png<br>
+│ ├── multivariate_regression.png<br>
 │ └── README.md<br>
 │<br>
 ├── LAB2/<br>
-│ ├── data_cleaning.ipynb<br>
-│ ├── DATA CLEANING.pdf<br>
+│ ├── lab 1b.ipynb<br>
+│ ├── lab 1b - DATA CLEANING.pdf<br>
 │ ├── diabetes.csv<br>
 │ ├── boxplots.png<br>
 │ ├── correlation_heatmap.png<br>
@@ -60,21 +63,32 @@ and ease of academic evaluation.
 
 ## Lab Index
 
-| Lab No | Title               | Description                                                                                         |
-| ------ | ------------------- | --------------------------------------------------------------------------------------------------- |
-| Lab 1  | Regression Analysis | Univariate, Bivariate & Multivariate Regression using Iris Dataset                                  |
-| Lab 2  | Data Cleaning & EDA | Data preprocessing, outlier handling, correlation analysis, and feature scaling on Diabetes Dataset |
-| Lab n  | To be updated       | Upcoming experiments                                                                                |
+| Lab No | Title                              | Description                                                                 |
+|------|------------------------------------|-----------------------------------------------------------------------------|
+| Lab 0 | Dataset Exploration (EDA)          | Basic exploratory data analysis and visualization using Iris dataset        |
+| Lab 1 | Regression Analysis                | Univariate, Bivariate & Multivariate Regression using Iris dataset          |
+| Lab 2 | Data Cleaning & EDA                | Data preprocessing, outlier handling, correlation analysis on Diabetes data |
+| Lab n | To be Updated                      | To be Updated                                                               |
 
 ---
 
 ## Lab Descriptions
 
+### Lab 0: Dataset Exploration (EDA)
+- Introduces the Iris dataset
+- Performs basic exploratory data analysis
+- Visualizes feature distributions and pairwise relationships
+- Builds intuition for dataset structure and class separability
+- Establishes foundation for regression modeling
+
+---
+
 ### Lab 1: Regression Analysis
-- Explores the Iris dataset using visualization techniques
 - Implements univariate, bivariate, and multivariate linear regression
-- Visualizes regression results and evaluates model performance
-- Focuses on understanding feature relationships through regression modeling
+- Uses Iris dataset for regression-based relationship analysis
+- Demonstrates the effect of increasing independent variables
+- Visualizes regression outputs using 2D and 3D plots
+- Strengthens understanding of variate regression concepts
 
 ---
 
@@ -83,8 +97,8 @@ and ease of academic evaluation.
 - Detects and removes outliers using boxplots and IQR method
 - Analyzes feature relationships using correlation heatmaps
 - Visualizes target variable distribution
-- Applies normalization and standardization for model readiness
-- Prepares clean, structured data suitable for machine learning algorithms
+- Applies normalization and standardization techniques
+- Prepares clean, structured data for machine learning models
 
 ---
 
@@ -97,23 +111,23 @@ and ease of academic evaluation.
 - Each lab folder contains:
   - Jupyter notebook(s)
   - Dataset files
-  - Generated Output images
+  - Generated output images
   - A dedicated `README.md` explaining the experiment
 - Open notebooks in **Jupyter Notebook or VS Code**
 - Execute cells **sequentially (top to bottom)**
-- Refer to individual lab `README.md` files for experiment details
+- Refer to individual lab `README.md` files for detailed explanations
 
 ---
 
 ## Purpose
 This repository serves as:
-- A lab attendance record
-- A learning reference for machine learning concepts
-- A structured submission for academic evaluation
+- A complete laboratory record for the course
+- A reference for core machine learning concepts
+- A structured academic submission for evaluation and review
 
 ---
 
 ## Author
-**Kamalesh S P**<br>
-Full Stack Developer<br>
-Rajalakshmi Engineering College<br>
+**Name:** Kamalesh S P<br>
+**Course:** Fundamentals of Machine Learning<br>
+**Repository:** Fundamentals of Machine Learning Laboratory<br>

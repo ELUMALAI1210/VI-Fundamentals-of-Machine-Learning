@@ -187,6 +187,6 @@ classification tasks.
 ---
 
 ## Author
-**Kamalesh S P**<br>
-Full Stack Developer<br>
-Rajalakshmi Engineering College<br>
+**Name:** Kamalesh S P<br>
+**Course:** Fundamentals of Machine Learning<br>
+**Lab:** Lab 2 – Data Cleaning<br>

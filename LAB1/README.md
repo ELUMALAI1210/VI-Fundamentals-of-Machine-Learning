@@ -1,22 +1,20 @@
-# Lab 1: Univariate, Bivariate and Multivariate Regression using Iris Dataset
+# Lab 1: Types of Variate Regression using Iris Dataset
 
 ## Overview
-This lab implements **Univariate, Bivariate, and Multivariate Linear Regression**
-on the **Iris dataset** to analyze relationships between flower features.
-In addition to regression models, exploratory data visualizations are generated
-to understand feature distributions and correlations.
+This lab focuses on understanding and implementing **Univariate, Bivariate, and Multivariate Linear Regression**
+using the **Iris dataset**.  
+The complete implementation is provided in a single Jupyter Notebook (`lab 1a.ipynb`), and the regression
+outputs are saved as image files for documentation and evaluation.
 
-The experiment is implemented using **Python**, **pandas**, **scikit-learn**,
-**matplotlib**, and **seaborn**, with all outputs saved as image files.
+The lab demonstrates how the number of independent variables affects model behavior and interpretation.
 
 ---
 
 ## Objectives
-- To explore the Iris dataset using visualization techniques
-- To implement univariate, bivariate, and multivariate regression models
+- To understand the concept of variate regression
+- To implement univariate, bivariate, and multivariate linear regression
+- To visualize regression results using plots
 - To analyze relationships between independent and dependent variables
-- To visualize and interpret regression results
-- To evaluate model performance using R-squared values
 
 ---
 
@@ -24,16 +22,12 @@ The experiment is implemented using **Python**, **pandas**, **scikit-learn**,
 - **Dataset Name:** Iris Dataset
 - **File Used:** `iris.csv`
 - **Features:**
-  - Sepal Length (cm)
-  - Sepal Width (cm)
-  - Petal Length (cm)
-  - Petal Width (cm)
-- **Target Variable:**
-  - Sepal Length (cm)
-- **Class Labels:**
-  - Setosa
-  - Versicolor
-  - Virginica
+  - Sepal Length
+  - Sepal Width
+  - Petal Length
+  - Petal Width
+- **Dependent Variable:**
+  - Sepal Length
 
 ---
 
@@ -44,74 +38,51 @@ The experiment is implemented using **Python**, **pandas**, **scikit-learn**,
 - matplotlib
 - seaborn
 - scikit-learn
-- mpl_toolkits.mplot3d
-
----
-
-## Exploratory Data Analysis (EDA)
-
-The following plots were generated to understand feature distributions
-and inter-feature relationships:
-
-| Image File Name | Description |
-|-----------------|-------------|
-| `sepal_length_distribution.png` | Distribution of Sepal Length across species |
-| `sepal_width_distribution.png` | Distribution of Sepal Width across species |
-| `sepal_width_vs_petal_width.png` | Relationship between Sepal Width and Petal Width |
-| `pairplot_iris.png` | Pairwise relationships among all features |
 
 ---
 
 ## Regression Experiments
 
 ### 1. Univariate Regression
-- **Independent Variable:** Petal Length (cm)
-- **Dependent Variable:** Sepal Length (cm)
-- A linear regression model is trained using a single feature.
-- The regression line and actual data points are visualized.
+- **Independent Variable:** One feature
+- **Dependent Variable:** Sepal Length
+- Demonstrates regression with a single predictor.
+- Output visualizes the regression line with data points.
 
-**Output Image:**
+**Output File:**
 - `univariate_regression.png`
 
 ---
 
 ### 2. Bivariate Regression
-- **Independent Variables:**
-  - Petal Length (cm)
-  - Petal Width (cm)
-- **Dependent Variable:** Sepal Length (cm)
-- A bivariate linear regression model is trained.
-- Results are visualized using a **3D scatter plot**.
+- **Independent Variables:** Two features
+- **Dependent Variable:** Sepal Length
+- Shows how two predictors jointly influence the target variable.
+- Results are visualized using a 3D regression plot.
 
-**Output Image:**
+**Output File:**
 - `bivariate_regression.png`
 
 ---
 
 ### 3. Multivariate Regression
-- **Independent Variables:** All feature variables
-- **Dependent Variable:** Sepal Length (cm)
-- A multivariate linear regression model is trained.
+- **Independent Variables:** More than two features
+- **Dependent Variable:** Sepal Length
+- Demonstrates real-world regression with multiple predictors.
 - Actual values are compared with predicted values.
 
-**Output Image:**
+**Output File:**
 - `multivariate_regression.png`
 
 ---
 
 ## Output Visualizations Summary
 
-All generated plots are saved and included in the repository for evaluation.
-
-| Image File Name | Purpose |
-|-----------------|---------|
-| `sepal_length_distribution.png` | Feature distribution analysis |
-| `sepal_width_distribution.png` | Feature distribution analysis |
-| `sepal_width_vs_petal_width.png` | Feature relationship analysis |
-| `pairplot_iris.png` | Multivariate feature relationships |
-| `univariate_regression.png` | Univariate regression output |
-| `bivariate_regression.png` | Bivariate regression (3D) output |
-| `multivariate_regression.png` | Multivariate regression output |
+| Image File Name | Description |
+|-----------------|-------------|
+| `univariate_regression.png` | Regression using one independent variable |
+| `bivariate_regression.png` | Regression using two independent variables |
+| `multivariate_regression.png` | Regression using multiple independent variables |
 
 ---
 
@@ -119,39 +90,31 @@ All generated plots are saved and included in the repository for evaluation.
 
 | File Name | Description |
 |----------|-------------|
-| `iris.csv` | Dataset used for the experiment |
-| `Lab 1a.ipynb` | EDA, univariate and bivariate regression |
-| `Lab 1b.ipynb` | Multivariate regression and evaluation |
+| `lab 1a.ipynb` | Complete implementation of all regression types |
+| `lab 1a - types of variate regression.pdf` | Lab reference / problem statement |
+| `univariate_regression.png` | Output of univariate regression |
+| `bivariate_regression.png` | Output of bivariate regression |
+| `multivariate_regression.png` | Output of multivariate regression |
 | `README.md` | Documentation for Lab 1 |
-| `*.png` | Saved output plots |
-
----
-
-## Results
-- Exploratory plots reveal clear feature separability among species.
-- Regression models were implemented successfully.
-- Saved plots provide clear visual interpretation of model behavior.
-- R-squared values indicate strong predictive performance.
 
 ---
 
 ## Conclusion
-This lab demonstrates the effective use of exploratory data analysis
-and regression techniques on the Iris dataset. Visualizations combined
-with regression modeling provide valuable insights into feature
-relationships and predictive behavior.
+This lab clearly demonstrates the progression from univariate to multivariate regression.
+By increasing the number of independent variables, the model’s ability to represent
+complex relationships improves, making multivariate regression more suitable for real-world datasets.
 
 ---
 
 ## How to Run
-1. Ensure `iris.csv` is present in the working directory
-2. Open `Lab 1a.ipynb` and `Lab 1b.ipynb` in Jupyter Notebook or VS Code
-3. Run all cells sequentially (top to bottom)
-4. View generated plots and saved output images
+1. Open `lab 1a.ipynb` in Jupyter Notebook or VS Code
+2. Ensure the Iris dataset is accessible in the notebook
+3. Run all cells sequentially
+4. Observe regression outputs and generated plots
 
 ---
 
 ## Author
-**Kamalesh S P**<br>
-Full Stack Developer<br>
-Rajalakshmi Engineering College<br>
+**Name:** Kamalesh S P<br>
+**Course:** Fundamentals of Machine Learning<br>
+**Lab:** Lab 1 – Types of Variate Regression<br>

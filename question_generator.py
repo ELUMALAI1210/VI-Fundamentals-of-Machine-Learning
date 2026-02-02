@@ -4,7 +4,7 @@ from reportlab.platypus import SimpleDocTemplate, Paragraph, Spacer, Preformatte
 from reportlab.lib.styles import getSampleStyleSheet, ParagraphStyle
 from reportlab.lib.pagesizes import A4
 
-file_path = "FOML lab 1b.pdf"
+file_path = "lab 1a - types of variate regression.pdf"
 
 doc = SimpleDocTemplate(file_path, pagesize=A4)
 styles = getSampleStyleSheet()
