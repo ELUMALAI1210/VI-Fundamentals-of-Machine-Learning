@@ -70,12 +70,26 @@ Fundamentals of Machine Learning/<br>
 
 | Lab No | Title                              | Description                                                                 |
 |------|------------------------------------|-----------------------------------------------------------------------------|
-| 084-138 - KamaleshSP-ElumalaiB - FOML LAB | Project Folder                      | To be Updated                                                               |
+| 084-138 - KamaleshSP-ElumalaiB - FOML LAB | Project X                      | To be Updated                                                               |
 | ASSIGNMENTS AND OTHER THINGS | Assignments of FOML          | Assignments and other things related to FOML       |
 | Lab 0 | Dataset Exploration (EDA)          | Basic exploratory data analysis and visualization using Iris dataset        |
 | Lab 1 | Regression Analysis                | Univariate, Bivariate & Multivariate Regression using Iris dataset          |
 | Lab 2 | Data Cleaning & EDA                | Data preprocessing, outlier handling, correlation analysis on Diabetes data |
 | Lab n | To be Updated                      | To be Updated                                                               |
+
+---
+
+## Project Descriptions
+
+### 084-138 - KamaleshSP-ElumalaiB - FOML LAB: Project X (future Idea - To be updated)
+- 
+
+---
+
+## Assignment Descriptions
+
+### ASSIGNMENTS AND OTHER THINGS: Assignments of FOML
+- Contents the Assignments and other practice general programs and files
 
 ---
 
