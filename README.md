@@ -149,6 +149,7 @@ This repository serves as:
 ---
 
 ## Author
-**Name:** Kamalesh S P<br>
+**Team Member1:** Elumalai B<br>
+**Team Member2:** Kamalesh S P<br>
 **Course:** Fundamentals of Machine Learning<br>
 **Repository:** Fundamentals of Machine Learning Laboratory<br>
