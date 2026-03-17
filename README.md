@@ -5,14 +5,15 @@
 
 | Lab No | Title | Description |
 |------|------|------|
-| 084-138 - KamaleshSP-ElumalaiB - FOML LAB | Project X | To be updated |
-| ASSIGNMENTS | Assignments of FOML | Assignments and related materials for Fundamentals of Machine Learning |
-| Lab 1a | Dataset Exploration (EDA) & Regression Analysis | Exploratory Data Analysis and visualization including Univariate, Bivariate, and Multivariate Regression using the Iris dataset |
-| Lab 1b | Data Cleaning & EDA | Data preprocessing, handling missing values and outliers, and correlation analysis using the Diabetes dataset |
-| Lab 2 | Linear Regression | Implementation of Linear Regression using both mathematical formulation and built-in library methods |
-| Lab 3 | Logistic Regression | Implementation of Logistic Regression using both mathematical formulation and built-in library methods |
-| Lab 4 | Single Layer Perceptron | Implementation of Single Layer Perceptron for logical gates (AND, OR, NAND, NOR) |
-| Lab 5 | Multi Layer Perceptron | Implementation of Multi Layer Perceptron (MLP) for solving the XOR logic gate problem |
+| 084-138 - KamaleshSP-ElumalaiB - FOML LAB | Project X | Comprehensive machine learning project integrating multiple algorithms and techniques |
+| Lab 1a | Dataset Exploration (EDA) & Regression Analysis | Performed exploratory data analysis using the Iris dataset including univariate, bivariate, and multivariate analysis |
+| Lab 1b | Data Cleaning & EDA | Data preprocessing, handling missing values, outlier detection, and correlation analysis using the Diabetes dataset |
+| Lab 2 | Linear Regression | Implemented linear regression using both mathematical approach and sklearn library |
+| Lab 3 | Logistic Regression | Implemented logistic regression for classification using both manual and library methods |
+| Lab 4 | Single Layer Perceptron | Implemented perceptron model for logical gates such as AND, OR, NAND, NOR |
+| Lab 5 | Multi Layer Perceptron | Implemented MLP using backpropagation to solve XOR problem |
+| Lab 6 | Decision Tree | Implemented decision tree classifier with preprocessing, feature encoding, and model evaluation |
+| Lab 7 | Face Recognition using SVM | Built a face recognition system using Support Vector Machine with feature extraction and classification |
 
 
 ## Author
