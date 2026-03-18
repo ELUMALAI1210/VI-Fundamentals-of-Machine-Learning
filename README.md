@@ -12,8 +12,9 @@
 | Lab 3 | Logistic Regression | Implemented logistic regression for classification using both manual and library methods |
 | Lab 4 | Single Layer Perceptron | Implemented perceptron model for logical gates such as AND, OR, NAND, NOR |
 | Lab 5 | Multi Layer Perceptron | Implemented MLP using backpropagation to solve XOR problem |
-| Lab 6 | Decision Tree | Implemented decision tree classifier with preprocessing, feature encoding, and model evaluation |
-| Lab 7 | Face Recognition using SVM | Built a face recognition system using Support Vector Machine with feature extraction and classification |
+| Lab 6 | Face Recognition using SVM | Built a face recognition system using Support Vector Machine with feature extraction and classification |
+| Lab 7 | Decision Tree | Implemented decision tree classifier with preprocessing, feature encoding, and model evaluation |
+
 
 
 ## Author
