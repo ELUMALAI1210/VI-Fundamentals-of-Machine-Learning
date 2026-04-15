@@ -5,7 +5,7 @@
 
 | Lab No | Title | Description |
 |------|------|------|
-| 084-138 - KamaleshSP-ElumalaiB - FOML LAB | Project X | Comprehensive machine learning project integrating multiple algorithms and techniques |
+| 084-138 - KamaleshSP-ElumalaiB - FOML LAB | Loan Harmony Nexus | Loan Harmony Nexus is a comprehensive AI-powered lending platform. It combines a robust MERN stack architecture with a dedicated Python FastAPI service that leverages Machine Learning to evaluate loan risk, helping lenders make highly informed approval decisions while providing borrowers with a streamlined, seamless loan application experience. |
 | Lab 1a | Dataset Exploration (EDA) & Regression Analysis | Performed exploratory data analysis using the Iris dataset including univariate, bivariate, and multivariate analysis |
 | Lab 1b | Data Cleaning & EDA | Data preprocessing, handling missing values, outlier detection, and correlation analysis using the Diabetes dataset |
 | Lab 2 | Linear Regression | Implemented linear regression using both mathematical approach and sklearn library |
